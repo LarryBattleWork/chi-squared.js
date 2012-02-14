@@ -25,3 +25,17 @@ chi.pdf(x, k)
 
 Compute the probability density function for the parameter `x` under `k` degrees
 of freedom.
+
+install
+=======
+
+With [npm](http://npmjs.org) do:
+
+```
+npm install chi-squared
+```
+
+license
+=======
+
+MIT/X11
