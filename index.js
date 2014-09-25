@@ -8,3 +8,5 @@ exports.pdf = function (x, k_) {
         * Math.exp(-x / 2)
     ;
 };
+
+exports.cdf = require('./cdf')
