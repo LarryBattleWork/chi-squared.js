@@ -1,11 +1,9 @@
-chi-squared
-===========
+# chi-squared
 
 Characteristic functions for the
 [chi-squared distribution](http://en.wikipedia.org/wiki/Chi-squared_distribution).
 
-example
-=======
+# example
 
 ```
 > var chi = require('chi-squared')
@@ -15,19 +13,16 @@ example
 0.11695769277348175
 ```
 
-methods
-=======
+# methods
 
 var chi = require('chi-squared')
 
-chi.pdf(x, k)
--------------
+## chi.pdf(x, k)
 
 Compute the probability density function for the parameter `x` under `k` degrees
 of freedom.
 
-install
-=======
+# install
 
 With [npm](http://npmjs.org) do:
 
@@ -35,7 +30,6 @@ With [npm](http://npmjs.org) do:
 npm install chi-squared
 ```
 
-license
-=======
+# license
 
-MIT/X11
+MIT
