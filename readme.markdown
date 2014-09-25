@@ -13,6 +13,8 @@ Characteristic functions for the
 0.4393912894677223
 > chi.pdf(2.3, 1.4)
 0.11695769277348175
+> chi.cdf(2, 2)
+0.6321204474030797
 ```
 
 # methods
@@ -23,6 +25,10 @@ var chi = require('chi-squared')
 
 Compute the probability density function for the parameter `x` under `k` degrees
 of freedom.
+
+## chi.cdf(x, k)
+
+compute the cumulative density function. same parameters as above.
 
 # install
 
