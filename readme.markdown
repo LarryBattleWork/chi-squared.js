@@ -3,6 +3,8 @@
 Characteristic functions for the
 [chi-squared distribution](http://en.wikipedia.org/wiki/Chi-squared_distribution).
 
+[![build status](https://secure.travis-ci.org/substack/chi-squared.js.png)](http://travis-ci.org/substack/chi-squared.js)
+
 # example
 
 ```
