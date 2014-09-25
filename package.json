@@ -1,10 +1,10 @@
 {
   "name": "chi-squared",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "characteristic functions for chi-squared distributions",
   "main": "index.js",
   "dependencies": {
-    "gamma": "0.0.x"
+    "gamma": "^1.0.0"
   },
   "devDependencies": {
     "tape": "^3.0.0"
