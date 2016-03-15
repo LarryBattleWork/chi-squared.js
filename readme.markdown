@@ -5,21 +5,16 @@ Characteristic functions for the
 
 [![build status](https://secure.travis-ci.org/substack/chi-squared.js.png)](http://travis-ci.org/substack/chi-squared.js)
 
-# example
+# Example
 
 ```
-> var chi = require('chi-squared')
-> chi.pdf(0.5, 1)
-0.4393912894677223
-> chi.pdf(2.3, 1.4)
-0.11695769277348175
-> chi.cdf(2, 2)
-0.6321204474030797
-```
-
-# methods
-
 var chi = require('chi-squared')
+chi.pdf(0.5, 1) // 0.4393912894677223
+chi.pdf(2.3, 1.4) // 0.11695769277348175
+chi.cdf(2, 2) // 0.6321204474030797
+```
+
+# Methods
 
 ## chi.pdf(x, k)
 
@@ -28,16 +23,23 @@ of freedom.
 
 ## chi.cdf(x, k)
 
-compute the cumulative density function. same parameters as above.
+Compute the cumulative density function. same parameters as above.
 
-# install
+# Install
 
 With [npm](http://npmjs.org) do:
 
-```
-npm install chi-squared
-```
+`npm install chi-squared`
 
-# license
+# Import
+
+`var chi = require('chi-squared')`
+
+# Npm tasks
+
+- Run tests: `npm test`
+- Run lint: `npm run lint`
+
+# License
 
 MIT
