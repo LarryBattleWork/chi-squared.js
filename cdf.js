@@ -1,3 +1,4 @@
+"use strict";
 const logGamma = require('gamma').log;
 
 // The following code liberated from

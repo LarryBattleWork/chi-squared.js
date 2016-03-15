@@ -1,3 +1,4 @@
+"use strict";
 const gamma = require('gamma');
 
 exports.pdf = function pdf(x, k_) {
