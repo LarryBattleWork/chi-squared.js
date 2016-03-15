@@ -7,6 +7,9 @@
     "gamma": "^1.0.0"
   },
   "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.2",
     "tape": "^3.0.0"
   },
   "repository": {
@@ -14,7 +17,8 @@
     "url": "http://github.com/substack/chi-squared.js.git"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js",
+    "lint": "eslint *.js"
   },
   "keywords": [
     "χ²",
